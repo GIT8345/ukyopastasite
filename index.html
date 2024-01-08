@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="fabikon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="path/to/your/favicon.ico" type="image/x-icon">
+    <title>ukyosite</title>
+</head>
+<body>
+   <h1>今回は自分のロゴを作ってファビコンにしたいと思います。</h1>
+  <headerr>
+  <p>ファビコンとは詳細はURLから</p>
+  </headerr>
+ <style>
+    .animated-text {
+      font-size: 18px;
+    }
+  </style>
+   <p id="animatedText" class="animated-text">クリック↓！</p>
+
+  <script>
+    var textElement = document.getElementById('animatedText');
+
+    function animateText() {
+      textElement.style.transform = 'translateY(-20px)';
+      setTimeout(function() {
+        textElement.style.transform = 'translateY(0)';
+      }, 1000); // 1000ミリ秒（1秒）後に元に戻す
+    }
+
+    setInterval(animateText, 2000); // 2000ミリ秒（2秒）ごとにアニメーションを実行
+  </script>
+  <a href="https://6599d3176dc360ddb58b29f7--charming-entremet-0cc631.netlify.app/">ファビコンとは</a>
+  <div style="padding: 0.0001px; margin-bottom: 10px; border: 2px dotted #333333;">
+    <h2>ロゴを作ってファビコンにする方法</h2>
+</div>
+  <li>canva</li>
+  <li>ファビコンジェネレーター</li>
+  <li>HTML</li>
+  <h3>canva</h3>
+<p>canvaを開いてロゴをクリック！自分のロゴを作ったらファイルを開いてダウンロードを押してください。</p>
+  <h3>ファビコンジェネレーター</h3>
+  <p>ファビコンジェネレーターと検索してください。</p>
+  <p>もしくはURLをクリックしてください。</p>
+ <a href="https://favicon-generator.mintsu-dev.com/">ファビコンジェネレーター</a>
+  <p>サイトに行ったら変換する画像を選択するをクリックする。canvaで作ったロゴを入れたら、作成するサイズを指定します。一般的には16x16だけど自分の好きなサイズにしてください。そして画像を変換するをクリックしてください！そして変換した画像を右クリックしてください。そして画像アドレスをコピーをクリックしてください。</p>
+  <h3>HTML</h3>
+  <p>そして画像アドレスをコピーしたらcodepenを開いて、HTMLテキストに  　link rel="icon" href="favicon.ico"をコピーアンドペーストしてください。その前に< >(やまかっこ)をコピーアンドペーストしてください。そしてサイトを公開するとできると思います。
+  </p>
+  </body>
+</html>
+<p>制作時間5時間</p>
